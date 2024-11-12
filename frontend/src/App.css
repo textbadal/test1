@@ -1,0 +1,46 @@
+/* src/App.css */
+
+.app {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #121212;
+  padding: 10px 20px;
+  color: white;
+}
+
+.navbar .logo h1 {
+  font-size: 1.8rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  color: #00FFB3; /* Teal color for links */
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #FF6B6B; /* Red color on hover */
+}
+
+.nav-link:active {
+  color: #00FFB3;
+}
+
+/* Add spacing for content below the navbar */
+.app > .content {
+  padding: 20px;
+}
