@@ -23,7 +23,7 @@ const CertificateVerification = () => {
     }
 
     try {
-      const response = await axios.post('http://localhost:5000/api/certificates/verify', { certificateIDs: certificateArray });
+      const response = await axios.post('https://test11-99rd.onrender.com/api/certificates/verify', { certificateIDs: certificateArray });
 
       // Check if the response is an array and set the result state
       if (Array.isArray(response.data)) {
